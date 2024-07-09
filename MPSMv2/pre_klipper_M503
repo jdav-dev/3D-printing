@@ -1,0 +1,33 @@
+Recv: ok N5 P15 B15 T:19.8 /0.0 B:18.7 /0.0 T0:19.8 /0.0 @:0 B@:0
+Send: N6 M105*33
+Recv: ok N6 P15 B15 T:18.8 /0.0 B:18.5 /0.0 T0:18.8 /0.0 @:0 B@:0
+Send: N7 M503*34
+Recv: echo:Steps per unit:
+Recv: echo:  M92 X93.00 Y93.00 Z400.00 E103.00
+Recv: echo:Maximum feedrates (mm/s):
+Recv: echo:  M203 X150.00 Y150.00 Z1.50 E50.00
+Recv: echo:Maximum Acceleration (mm/s2):
+Recv: echo:  M201 X800 Y800 Z20 E10000
+Recv: echo:Accelerations: P=printing, R=retract and T=travel
+Recv: echo:  M204 P3000.00 R3000.00 T3000.00
+Recv: echo:Advanced variables:
+Recv: S=Min feedrate (mm/s),
+Recv: T=Min travel feedrate (mm/s),
+Recv: B=minimum segment time (ms),
+Recv: X=maximum XY jerk (mm/s),
+Recv: Z=maximum Z jerk (mm/s),
+Recv: E=maximum E jerk (mm/s)
+Recv: echo:  M205 S0.00 T0.00 B20000 X20.00 Z0.40 E5.00
+Recv: echo:Home offset (mm):
+Recv: echo:  M206 X0.00 Y0.00 Z0.00
+Recv: echo:Invert axis: M562 XYZE
+Recv: XYZABCD+--+-+-
+Recv: echo:PID settings:
+Recv: echo:  M301 P20.00 I0.02 D250.00 C0.12 L2
+Recv: echo:  M304 P50.50 I0.39 D21.85
+Recv: echo:Filament settings: Disabled
+Recv: echo:  M200 D1.75
+Recv: echo:  M200 D0
+Recv: ok N7 P15 B15
+Send: N8 M105*47
+Recv: ok N8 P15 B15 T:18.2 /0.0 B:21.5 /0.0 T0:18.2 /0.0 @:0 B@:0
